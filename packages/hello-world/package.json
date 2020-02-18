@@ -1,0 +1,28 @@
+{
+  "name": "hello-world",
+  "version": "0.0.0",
+  "description": "Send Slack Notifications",
+  "author": "Roland Olah <rolandolah@icloud.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/hello-world.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "invoke": "serverless invoke local -f hello-world",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "babel-jest": "^24.9.0",
+    "jest": "^24.9.0",
+    "serverless": "^1.59.3",
+    "serverless-bundle": "^1.2.5",
+    "serverless-dotenv-plugin": "^2.1.1",
+    "serverless-offline": "^5.12.1"
+  }
+}

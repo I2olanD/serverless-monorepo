@@ -1,0 +1,11 @@
+{
+  "name": "root",
+  "private": true,
+  "devDependencies": {
+    "lerna": "^3.19.0"
+  },
+  "scripts": {
+    "invoke": "lerna run invoke --no-bail --stream",
+    "test": "lerna run test --no-bail --stream"
+  }
+}
