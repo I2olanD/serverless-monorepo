@@ -1,7 +1,7 @@
 {
   "name": "use-data-lambda",
   "version": "0.0.1",
-  "description": "> TODO: description",
+  "description": "Lambda that uses event mock data",
   "author": "Roland <rolandolah@icloud.com>",
   "homepage": "https://github.com/I2olanD/serverless-monorepo#readme",
   "license": "ISC",
