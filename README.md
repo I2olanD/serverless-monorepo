@@ -1,8 +1,8 @@
-# This repository holds a serverless monorepo
+# Serverless monorepo for building and testing lambdas
 
 ## What you need
-[Yarn]('https://classic.yarnpkg.com/en/docs/install/#mac-stable') - Dependency manager
-[Lerna]('https://github.com/lerna/lerna') - Monorepo manager
+* [Yarn](https://classic.yarnpkg.com/en/docs/install/#mac-stable) - Dependency manager
+* [Lerna](https://github.com/lerna/lerna) - Monorepo manager
 
 ## Development
 
