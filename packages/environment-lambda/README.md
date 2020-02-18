@@ -1,11 +1,3 @@
-# `hello-world`
+# `environment-lambda`
 
-This lambda returns a string with `Hello World`
-
-## Usage
-
-```
-const helloWorld = require('hello-world');
-
-// TODO: DEMONSTRATE API
-```
+This lambda returns a string with `This lambda is running on: {ENVIRONMENT}`

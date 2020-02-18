@@ -1,11 +1,3 @@
 # `use-data-lambda`
 
-> TODO: description
-
-## Usage
-
-```
-const useDataLambda = require('use-data-lambda');
-
-// TODO: DEMONSTRATE API
-```
+This lambda returns a string with passed event_mock.json
