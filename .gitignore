@@ -1,4 +1,11 @@
+## DISTRIBUTION ##
+.serverless
 .webpack
+
+## DEVELOPMENT
+coverage
 node_modules
+
+## REPOSITORY ##
 lerna-debug.log
 yarn.lock

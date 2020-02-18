@@ -1,5 +1,5 @@
 service:
-  name: hello-world
+  name: use-data-lambda
 
 plugins:
   - serverless-bundle
@@ -17,5 +17,5 @@ package:
   individually: true
 
 functions:
-  hello-world:
+  use-data-lambda:
     handler: lib/index.handle

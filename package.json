@@ -1,11 +1,15 @@
 {
-  "name": "root",
+  "name": "serverless-monorepo",
   "private": true,
   "devDependencies": {
     "lerna": "^3.19.0"
   },
   "scripts": {
-    "invoke": "lerna run invoke --no-bail --stream",
-    "test": "lerna run test --no-bail --stream"
+    "invoke": "lerna run invoke --no-bail --no-prefix",
+    "build": "lerna run build --no-bail --stream --no-prefix",
+    "test": "lerna run test --no-bail --no-prefix"
+  },
+  "engines": {
+    "node": "12.x"
   }
 }
