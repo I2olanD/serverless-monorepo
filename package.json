@@ -2,7 +2,7 @@
   "name": "serverless-monorepo",
   "private": true,
   "devDependencies": {
-    "lerna": "^3.19.0"
+    "lerna": "^3.20.2"
   },
   "scripts": {
     "invoke": "lerna run invoke --no-bail --no-prefix",
